@@ -1,0 +1,260 @@
+var NumeroUno:Number;
+	var NumeroDos:Number;
+	var Resultado:Number;
+	var Entrada:Number;
+	var Select:Number;
+	var Unir:String;
+		 
+			Uno_btn.addEventListener(MouseEvent.CLICK, functUno);
+			Dos_btn.addEventListener(MouseEvent.CLICK, functDos);
+			Tres_btn.addEventListener(MouseEvent.CLICK, functTres);
+			Cuatro_btn.addEventListener(MouseEvent.CLICK, functCuatro);
+			Cinco_btn.addEventListener(MouseEvent.CLICK, functCinco);
+			Seis_btn.addEventListener(MouseEvent.CLICK, functSeis);
+			Siete_btn.addEventListener(MouseEvent.CLICK, functSiete);
+			Ocho_btn.addEventListener(MouseEvent.CLICK, functOcho);
+			Nueve_btn.addEventListener(MouseEvent.CLICK, functNueve);
+			Cero_btn.addEventListener(MouseEvent.CLICK, functCero);
+			Punto_btn.addEventListener(MouseEvent.CLICK, functPunto);
+			Suma_btn.addEventListener(MouseEvent.CLICK, functSuma);
+			Restar_btn.addEventListener(MouseEvent.CLICK, functRestar);
+			Multiplicar_btn.addEventListener(MouseEvent.CLICK, functMultiplicar);
+			Dividir_btn.addEventListener(MouseEvent.CLICK, functDividir);
+			Raiz_btn.addEventListener(MouseEvent.CLICK, functRaiz);
+			Potencia_btn.addEventListener(MouseEvent.CLICK, functPotencia);
+			SignoMenos_btn.addEventListener(MouseEvent.CLICK, functSignoMenos);
+			Igual_btn.addEventListener(MouseEvent.CLICK, functIgual);
+			Borrar_btn.addEventListener(MouseEvent.CLICK, functBorrar);
+				
+			function functUno(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="1";
+				}
+				else
+				{
+				Unir=Pantalla.text+"1";
+				Pantalla.text= Unir;
+				}
+				}
+			function functDos(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="2";
+				}
+				else
+				{
+				Unir=Pantalla.text+"2";
+				Pantalla.text= Unir;
+				}
+				}
+			function functTres(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="3";
+				}
+				else
+				{
+				Unir=Pantalla.text+"3";
+				Pantalla.text= Unir;
+				}
+				}
+			function functCuatro(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="4";
+				}
+				else
+				{
+				Unir=Pantalla.text+"4";
+				Pantalla.text= Unir;
+				}
+				}
+			function functCinco(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="5";
+				}
+				else
+				{
+				Unir=Pantalla.text+"5";
+				Pantalla.text= Unir;
+				}
+				}
+			function functSeis(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="6";
+				}
+				else
+				{
+				Unir=Pantalla.text+"6";
+				Pantalla.text= Unir;
+				}
+				}
+			function functSiete(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="7";
+				}
+				else
+				{
+				Unir=Pantalla.text+"7";
+				Pantalla.text= Unir;
+				}
+				}
+			function functOcho(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="8";
+				}
+				else
+				{
+				Unir=Pantalla.text+"8";
+				Pantalla.text= Unir;
+				}
+				}
+			function functNueve(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="9";
+				}
+				else
+				{
+				Unir=Pantalla.text+"9";
+				Pantalla.text= Unir;
+				}
+				}
+			function functCero(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="0";
+				}
+				else
+				{
+				Unir=Pantalla.text+"0";
+				Pantalla.text= Unir;
+				}
+				}
+			function functPunto(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text=".";
+				}
+				else
+				{
+				Unir=Pantalla.text+".";
+				Pantalla.text= Unir;
+				}
+				}
+			function functSignoMenos(event:MouseEvent):void
+				{ 
+    			Entrada=Number(Pantalla.text);	
+				if(Entrada==0)
+				{
+				Pantalla.text="-";
+				}
+				else
+				{
+				Unir=Pantalla.text+"-";
+				Pantalla.text= Unir;
+				}
+				}
+			function functSuma(e:MouseEvent):void{
+				Select=1;
+				NumeroUno=Number(Pantalla.text);
+				Pantalla.text = "";
+				
+				}
+			function functRestar(e:MouseEvent):void{
+				Select=2;
+				NumeroUno=Number(Pantalla.text);
+				Pantalla.text = "";
+				
+				}
+			function functMultiplicar(e:MouseEvent):void{
+				Select=3;
+				NumeroUno=Number(Pantalla.text);
+				Pantalla.text = "";
+				
+				}
+			function functDividir(e:MouseEvent):void{
+				Select=4;
+				NumeroUno=Number(Pantalla.text);
+				Pantalla.text = "";
+				
+				}
+			function functRaiz(e:MouseEvent):void{
+				Select=5;
+				NumeroUno=Number(Pantalla.text);
+				Pantalla.text = "";
+				
+				}
+			function functPotencia(e:MouseEvent):void{
+				Select=6;
+				NumeroUno=Number(Pantalla.text);
+				Pantalla.text = "";
+				
+				}
+			function functIgual(e:MouseEvent):void{
+				switch(Select){
+					case 1:
+					NumeroDos=Number(Pantalla.text);
+					Resultado = NumeroUno + NumeroDos;
+					Pantalla.text = String (Resultado);
+					break;
+					case 2:
+					NumeroDos=Number(Pantalla.text);
+					Resultado = NumeroUno - NumeroDos;
+					Pantalla.text = String (Resultado);
+					break;
+					case 3:
+					NumeroDos=Number(Pantalla.text);
+					Resultado = NumeroUno * NumeroDos;
+					Pantalla.text = String (Resultado);
+					break;
+					case 4:
+					NumeroDos=Number(Pantalla.text);
+					Resultado = NumeroUno / NumeroDos;
+					Pantalla.text = String (Resultado);
+					break;
+					case 5:
+					NumeroDos=Number(Pantalla.text);
+					Resultado = Math.sqrt(NumeroDos);
+					Pantalla.text = String (Resultado);
+					break;
+					case 6:
+					NumeroDos=Number(Pantalla.text);
+					Resultado = Math.pow(NumeroUno,NumeroDos);
+					Pantalla.text = String (Resultado);
+					break;
+				}
+				
+				}
+			function functBorrar(e:MouseEvent):void{
+				Pantalla.text = "";
+				
+				}
+	
